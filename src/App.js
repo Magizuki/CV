@@ -168,13 +168,27 @@ export default function App() {
               </div>
               <br />
               <div className="gap-3 columns-3 flex items-center justify-center">
-                <img src={`assets/icons/facebook/${facebookUrl}.png`} className="hover:cursor-pointer w-6 h-6" alt="" onMouseOver={() => changeImgOnHover(1, "hover")} onMouseLeave={() => changeImgOnHover(1, "leave")} />
-                <img src={`assets/icons/github/${githubUrl}.png`} className="hover:cursor-pointer w-6 h-6" alt="" onMouseOver={() => changeImgOnHover(2, "hover")} onMouseLeave={() => changeImgOnHover(2, "leave")}/>
-                <img src={`assets/icons/linkedin/${linkedinUrl}.png`} className="hover:cursor-pointer w-6 h-6" alt="" onMouseOver={() => changeImgOnHover(3, "hover")} onMouseLeave={() => changeImgOnHover(3, "leave")}/>
+                <img src={`assets/icons/facebook/${facebookUrl}.png`} className="hover:cursor-pointer w-6 h-6" alt="Facebook" onMouseOver={() => changeImgOnHover(1, "hover")} onMouseLeave={() => changeImgOnHover(1, "leave")} />
+                <img src={`assets/icons/github/${githubUrl}.png`} className="hover:cursor-pointer w-6 h-6" alt="Github" onMouseOver={() => changeImgOnHover(2, "hover")} onMouseLeave={() => changeImgOnHover(2, "leave")}/>
+                <img src={`assets/icons/linkedin/${linkedinUrl}.png`} className="hover:cursor-pointer w-6 h-6" alt="Linkedin" onMouseOver={() => changeImgOnHover(3, "hover")} onMouseLeave={() => changeImgOnHover(3, "leave")}/>
               </div>
               <br />
             </div>
-            
+            <div className="flex-row gap-2 ml-10">
+              <div className="gap-1 columns-2 flex my-5">
+                <img src="assets/icons/date/calendar.png" className="hover:cursor-pointer w-6 h-6" alt="Date Of Birth" /><span className="text-lg">March 27, 2000</span> 
+              </div>
+              <div className="gap-1 columns-2 flex my-5">
+                <img src="assets/icons/location/location-pin.png" className="hover:cursor-pointer w-6 h-6" alt="Place of Birth" /><span className="text-lg">Jakarta, Indonesia</span>
+              </div>
+              <div className="gap-1 columns-2 flex my-5">
+                <img src="assets/icons/email/email.png" className="hover:cursor-pointer w-6 h-6" alt="Email" /><span className="text-lg">irvinesens@gmail.com</span>
+              </div>
+              <div className="gap-1 columns-2 flex my-5">
+                <img src="assets/icons/phone/smartphone.png" className="hover:cursor-pointer w-6 h-6" alt="Phone" /><span className="text-lg">081908063088</span>
+              </div>
+            </div>
+            <br />
             <div className="flex justify-center items-center">
               <a href="assets/CV - CHRISTOPHER IRVINE SENDJAYA.pdf" download>
                 <Button>
