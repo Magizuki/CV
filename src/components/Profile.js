@@ -169,9 +169,9 @@ export default function Profile() {
               </div>
               <br />
               <div className="gap-3 columns-3 flex items-center justify-center">
-                <img src={`assets/icons/facebook/${facebookUrl}.png`} className="hover:cursor-pointer w-6 h-6" alt="Facebook" onMouseOver={() => changeImgOnHover(1, "hover")} onMouseLeave={() => changeImgOnHover(1, "leave")} />
-                <img src={`assets/icons/github/${githubUrl}.png`} className="hover:cursor-pointer w-6 h-6" alt="Github" onMouseOver={() => changeImgOnHover(2, "hover")} onMouseLeave={() => changeImgOnHover(2, "leave")}/>
-                <img src={`assets/icons/linkedin/${linkedinUrl}.png`} className="hover:cursor-pointer w-6 h-6" alt="Linkedin" onMouseOver={() => changeImgOnHover(3, "hover")} onMouseLeave={() => changeImgOnHover(3, "leave")}/>
+                <a href="https://m.facebook.com/IrvineSendjaya"><img src={`assets/icons/facebook/${facebookUrl}.png`} className="hover:cursor-pointer w-6 h-6" alt="Facebook" onMouseOver={() => changeImgOnHover(1, "hover")} onMouseLeave={() => changeImgOnHover(1, "leave")} /></a>
+                <a href="https://github.com/Magizuki"><img src={`assets/icons/github/${githubUrl}.png`} className="hover:cursor-pointer w-6 h-6" alt="Github" onMouseOver={() => changeImgOnHover(2, "hover")} onMouseLeave={() => changeImgOnHover(2, "leave")}/></a>
+                <a href="https://www.linkedin.com/in/christopher-irvine-sendjaya-39bba01b6/"><img src={`assets/icons/linkedin/${linkedinUrl}.png`} className="hover:cursor-pointer w-6 h-6" alt="Linkedin" onMouseOver={() => changeImgOnHover(3, "hover")} onMouseLeave={() => changeImgOnHover(3, "leave")}/></a>
               </div>
               <br />
             </div>
