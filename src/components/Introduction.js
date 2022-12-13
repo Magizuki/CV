@@ -30,11 +30,11 @@ export default function Introduction() {
                 <div className="lg:flex block gap-6 w-full">
                     <div className="flex items-center rounded-lg lg:w-1/2 w-full h-1/5 gap-3 p-5 bg-white dark:bg-[#302C40] lg:bg-[#F5F6F7] text-[#44566C] lg:dark:bg-[#272333] dark:text-[#DEDDE0]">
                       <img src="assets/icons/website/website.png" className="hover:cursor-pointer w-12 lg:w-1/3 lg:h-24 h-16" alt="Web" />
-                      <span className="text-2xl ml-10 mt-5">Web Development</span>
+                      <span className="text-xl ml-10 mt-5">Web Development</span>
                     </div>
                     <div className="flex items-center rounded-lg lg:w-1/2 w-full h-1/5 gap-3 p-5 bg-white dark:bg-[#302C40] lg:bg-[#F5F6F7] text-[#44566C] lg:dark:bg-[#272333] dark:text-[#DEDDE0]">
                       <img src="assets/icons/database/database.png" className="hover:cursor-pointer w-12 lg:w-1/3 lg:h-24 h-16" alt="Web" />
-                      <span className="text-2xl ml-10 mt-5">Database Management</span>
+                      <span className="text-xl ml-10 mt-5">Database Management</span>
                     </div>
                 </div>
               </div>
