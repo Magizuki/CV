@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from "react"
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Introduction from "./Introduction"
 import Resume from "./Resume"
+import ComingSoon from "./ComingSoon"
 
 export default function Profile() {
 
@@ -207,6 +208,7 @@ export default function Profile() {
                 {/* <React.Fragment><Navigation width={window.innerWidth} /></React.Fragment> */}
                 <Route path="/" element={<Introduction />}></Route>
                 <Route path="/Resume" element={<Resume />}></Route>
+                <Route path="/Portfolio" element={<ComingSoon />}></Route>
               </Routes>
             </Router>
             {/* <Introduction /> */}

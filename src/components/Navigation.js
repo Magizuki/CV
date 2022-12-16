@@ -34,9 +34,11 @@ export default function Navigation(props) {
                                     Resume 
                                 </span>
                              </Link>
-                            <button className="ml-3 hover:underline">
-                                Portfolio 
-                            </button>  
+                             <Link to="/Portfolio">
+                                <button className="ml-3 hover:underline">
+                                    Portfolio 
+                                </button>
+                             </Link>  
                             <button onClick={shrinkNav} className="material-symbols-outlined ml-3 h-8 hover:h-10">
                                 Close
                             </button>  
